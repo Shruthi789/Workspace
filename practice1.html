@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css\bootstrap.min.css"/>
+    <title>Suman BBC!</title>
+    <style>
+        /*NAVIGATION BAR STYLES */
+        #logo-menu .content ul,#primary-nav ul,#sub-nav .content ul,.related-links{
+            list-style-type:none;
+            padding-left:0px;
+        }
+        #logo-menu .content ul li,#primary-nav ul li,#sub-nav .content ul li{
+             text-align:center;
+             border-right:1px solid lightgrey;
+        }
+        .underlined{
+            color:black;
+            font-weight:bold;
+        }
+        .red-header{
+            background-color: #dc3545;
+            color:white;
+        }
+        .text-style{
+            color:white;
+        }
+        #content #find-local a p{
+            border:1px solid lightgrey;
+            border-radius:3px;
+        }
+        #content{
+           border-bottom: 1px solid lightgrey;
+        }
+        .active{
+           border-bottom: 2px solid lightgrey;
+        }
+        /*MAIN CONTENT STYLES*/
+        #article-text,.article-image,.post-data{
+            color:black;
+        }
+        .country{
+            color:red;
+            width:50px;
+        }
+        .tag{
+            font-size:19px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <nav>
+        <div id="logo-menu" class="row">
+            <div class="content col-sm-12">
+                <ul class="d-flex flex-row">
+                    <li class="logo p-2">
+                        <a href="#">
+                            <img src="https://static.bbci.co.uk/frameworks/barlesque/2.83.4/orb/4/img/bbc-blocks-dark.png"
+                                alt="BBC">
+                        </a>
+                    </li>
+                    <li class="sign-in p-2">
+                        <a class="underlined" href="#">
+                            <img src="https://static.bbci.co.uk/id/0.27.15/img/bbcid_orb_signin_dark.png" alt="Profile">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                    <li><a class="underlined p-2" href="#">Chola Bhatura</a></li>
+                    <li><a class="underlined p-2" href="#">Pizza</a></li>
+                    <li><a class="underlined p-2" href="#">Panner Pasanda</a></li>
+                    <li><a class="underlined p-2" href="#">Rasgulla</a></li>
+                    <li><a class="underlined p-2" href="#">Fish Fingers</a></li>
+                    <li><a class="underlined p-2" href="#">Mutton Biryani</a></li>
+                    <li><a class="underlined p-2" href="#">Continental Food !</a></li>
+                    <li class="search">
+                        <div class="search-container p-2">
+                            <input type="text" placeholder="Search">
+                            <a class="search-button" href="#">
+                                <img src="https://static.bbci.co.uk/frameworks/barlesque/2.83.4/orb/4/img/orb-search-dark.png"
+                                    alt="Search">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row red-header">
+            <div id="content" class="col-sm-12 p-3">
+                   <div id="news" class="float-left">
+                    <a href="#">
+                        <h1 class="text-style">NEWS</h1>
+                    </a>
+                   </div>
+                    <div id="find-local" class="float-right">
+                        <a href="#">
+                            <p class="text-style p-2">Find local news</p>
+                        </a>
+                    </div>
+            </div>
+            <div id="primary-nav" class="col-sm-12">
+                    <ul class="d-flex flex-row p-2">
+                        <li class="p-2 active"><a class="text-style" href="#"><span>Home</span></a></li>
+                        <li class="p-2"><a class="text-style" href="#">UK</a></li>
+                        <li class="p-2"><a class="text-style" href="#">World</a></li>
+                        <li class="p-2"><a class="text-style" href="#">Business</a></li>
+                        <li class="p-2"><a class="text-style" href="#">Tech</a></li>
+                        <li class="p-2"><a class="text-style" href="#">Science</a></li>
+                        <li class="p-2"><a class="text-style" href="#">Health</a></li>
+                        <li class="p-2"><a class="text-style" href="#">Education</a></li>
+                        <li class="p-2"><a class="text-style" href="#">Entertainment &amp; Arts</a></li>
+                        <li class="p-2"><a class="text-style" href="#">Video &amp; Audio</a></li>
+                        <li class="p-2"><a class="text-style" href="#"><div class="dropdown">
+                            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              More
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </div>
+                        </a></li>
+                    </ul>
+            </div>
+        </div>
+        
+
+        <div id="sub-nav" class="row p-2">
+            <div class="content">
+                <ul class="d-flex flex-row">
+                    <li><a class="underlined p-2" href="#">England</a></li>
+                    <li><a class="underlined p-2" href="#">N. Ireland</a></li>
+                    <li><a class="underlined p-2" href="#">Scotland</a></li>
+                    <li><a class="underlined p-2" href="#">Alba</a></li>
+                    <li><a class="underlined p-2" href="#">Wales</a></li>
+                    <li><a class="underlined p-2" href="#">Cymru</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="content">
+            <div class="main-content">
+                <article class="full-width">
+                    <a href="#">
+                        <div class="row">
+                        <div class="col-sm-8">
+                        <h2 class="underlined">Headline</h2>
+                        <div class="row">
+                        <div id="article-text" class="col-sm-9">
+                        <p>Related headline article text. Some more text so you can see what it looks like with multiple
+                            lines.</p>
+                        <p>Even a new paragraph.</p>
+                         </div>
+                        <div class="col-sm-3">
+                        <img class="article-image font-weight-bold" src="//placehold.it/400x220" alt="Article image">
+                         </div>
+                        </div>
+                    </div>
+                    </div>
+                    </a>
+                    <p class="post-data p-2">Time posted<a class="country ml-5" href="#">Country</a></p>
+                    <ul class="related-links">
+                        <li><a href="#" class="underlined">
+                                <div class="icon video"></div>Video Content 1
+                            </a></li>
+                        <li><a href="#" class="underlined">
+                                <div class="icon video"></div>Video Content 2
+                            </a></li>
+                        <li><a href="#" class="underlined">Normal Content 1</a></li>
+                        <li><a href="#" class="underlined">Normal Content 2</a></li>
+                    </ul>
+                </article>
+            </div>
+            <!--
+          -->
+            <div class="sidebar">
+                <h2>Watch/Listen</h2>
+                <article>
+                    <a href="#">
+                        <div class="d-flex flex-row underlined">
+                        <div class="image d-flex flex-row p-2">
+                            <img src="https://w0.pngwave.com/png/507/373/google-play-button-computer-icons-button-png-clip-art.png" alt="play button" height="30" width="30">
+                            <div class="time">4:52</div>
+                        </div>
+                        <img class="p-2" src="//placehold.it/105x60" alt="Article image">
+                        <h3 class="p-2">Article title</h3>
+                        </div>
+                        <p class="post-data">Time posted</p>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <div class="d-flex flex-row underlined">
+                        <div class="image d-flex flex-row p-2">
+                            <img src="https://w0.pngwave.com/png/507/373/google-play-button-computer-icons-button-png-clip-art.png" alt="play button" height="30" width="30">
+                            <div class="time">1:19</div>
+                        </div>
+                        <img class="p-2" src="//placehold.it/105x60" alt="Article image">
+                        <h3 class="p-2"><span class="tag p-1">TAG</span>&nbsp;Article title</h3>
+                        </div>
+                        <p class="post-data">Time posted</p>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <div class="d-flex flex-row underlined">
+                        <div class="image d-flex flex-row p-2">
+                            <img src="https://w0.pngwave.com/png/507/373/google-play-button-computer-icons-button-png-clip-art.png" alt="play button" height="30" width="30">
+                            <div>0:36</div>
+                        </div>
+                        <img src="//placehold.it/105x60" class="p-2" alt="Article image">
+                        <h3 class="p-2">Article title</h3>
+                        </div>
+                        <p class="post-data">Time posted</p>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </main>
+    </div>
+    </div>
+    <!--SCRIPTS-->
+    <script src="js\bootstrap.min.js"/>
+    <script src="js\jquery-3.6.0.min.js"/>
+</body>
+
+</html>

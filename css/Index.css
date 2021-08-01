@@ -1,0 +1,28 @@
+/*Text Color for the document */
+*{
+	 color:white;
+	 background-color:black;
+ }
+/*Heading Style*/
+#heading #title h1{
+	color:#ff5959;
+	font-size:70px;
+	font-weight:bold;
+}
+#title
+#heading #image img{
+	border:2px solid;
+}
+/*Colors */
+#FirstBox #FirstSubBox #girl,#FourthBox #Juice img,#SixthBox img,#SecondBox *,#SeventhBox #PhysicalActivity *,#SeventhBox #PhysicalActivity,#FourthBox #FrenchFries *,#FourthBox #FrenchFries
+{
+	background-color:#ff5959;
+}
+#FirstSubBox *,#FirstSubBox,#FrenchFries img,#Juice *,#Juice,#SixthBox,#SixthBox *
+{
+	background-color:#ff9e1b;
+}
+#SecondSubBox *,#SecondSubBox,#ThirdBox *,#FifthBox *,#MoneyInfo,#MoneyInfo *
+{
+ background-color:#56c1e7;
+}	
